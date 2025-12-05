@@ -14,10 +14,7 @@ and then provides a CRUD menu for managing employees.
 
 ![db](screenshots/running.png)
  
-
 ---
-
-
 
 
 ###  What This App Does
@@ -33,13 +30,6 @@ and then provides a CRUD menu for managing employees.
 
 ---
 
-
-
-
-
-
-
----
 
 ##  **Project Structure**
 
@@ -218,8 +208,6 @@ List all containers:
 ```bash
 docker ps -a
 ```
-
----
 
 
 
