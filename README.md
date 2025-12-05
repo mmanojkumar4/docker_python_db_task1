@@ -117,7 +117,7 @@ docker network create my_network
 
 This allows containers to communicate by name (DNS).
 
-screenshots/network.png
+![network](screenshots/network.png)
 ---
 
 ##  **Run PostgreSQL Container**
@@ -143,7 +143,8 @@ docker run -d \
 ```bash
 docker build -t python_db_task .
 ```
-screenshots/build.png
+
+![build](screenshots/build.png)
 ---
 
 ##  **Run Python App (with user input)**
@@ -168,8 +169,11 @@ Connected to the database!
 ```
 
 
-screenshots/op2.png
-screenshots/op1.png
+
+
+![output](screenshots/op2.png)
+
+![output](screenshots/op1.png)
 ---
 
 ## **Verify Data in PostgreSQL (Optional)**
