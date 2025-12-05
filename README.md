@@ -1,5 +1,3 @@
-![backup](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/backup.png)
- 
 
 
  # Dockerized Python + PostgreSQL Employee CRUD App**
@@ -119,6 +117,7 @@ docker network create my_network
 
 This allows containers to communicate by name (DNS).
 
+screenshots/network.png
 ---
 
 ##  **Run PostgreSQL Container**
@@ -144,7 +143,7 @@ docker run -d \
 ```bash
 docker build -t python_db_task .
 ```
-
+screenshots/build.png
 ---
 
 ##  **Run Python App (with user input)**
@@ -154,6 +153,9 @@ docker run --network my_network -it python_db_task
 ```
 
 You should now see:
+
+screenshots/running.png
+
 
 ```
 Connected to the database!
@@ -165,6 +167,9 @@ Connected to the database!
 5. Quit
 ```
 
+
+screenshots/op2.png
+screenshots/op1.png
 ---
 
 ## **Verify Data in PostgreSQL (Optional)**
@@ -186,8 +191,9 @@ psql -U postgres -d testdb
 ```sql
 SELECT * FROM employees;
 ```
-
+screenshots/post1.png
 ---
+screenshots/running.png
 
 ##  **Useful Docker Commands**
 
