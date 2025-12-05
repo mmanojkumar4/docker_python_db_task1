@@ -17,14 +17,14 @@ and then provides a CRUD menu for managing employees.
 
 ##  **What This App Does**
 
-✔ Connects to PostgreSQL container
-✔ Prints **"Connected to the database!"** when connection succeeds
-✔ Creates an `employees` table if not exists
-✔ Inserts new employees
-✔ Updates existing employees
-✔ Deletes employees
-✔ Displays all employees
-✔ Runs fully inside Docker
+ Connects to PostgreSQL container
+ Prints **"Connected to the database!"** when connection succeeds
+ Creates an `employees` table if not exists
+ Inserts new employees
+ Updates existing employees
+ Deletes employees
+ Displays all employees
+ Runs fully inside Docker
 
 
 
@@ -65,7 +65,9 @@ def get_connection():
 
 ###  **Full CRUD Application Code**
 
-    app.py — This Python script contains the complete logic for connecting to PostgreSQL, printing the “Connected to the database!” message, creating the employees table, and performing all CRUD operations (Add, Update, Delete, View). It also provides an interactive menu so users can enter data manually inside the Docker container. 
+    app.py — This Python script contains the complete logic for connecting to PostgreSQL, printing the “Connected to the database!” message . 
+    It creates the employees table, and performing all CRUD operations (Add, Update, Delete, View). 
+    It also provides an interactive menu so users can enter data manually inside the Docker container. 
 
 ---
 
