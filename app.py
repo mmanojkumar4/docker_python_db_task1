@@ -51,7 +51,7 @@ def add_employee():
     cur.close()
     conn.close()
 
-# 2. Update Employee
+# 2. Update Employees
 def update_employee():
     emp_id = int(input("Enter Employee ID to Update: "))
     new_name = input("New Name: ")
@@ -132,3 +132,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
