@@ -40,6 +40,35 @@ docker_db_task/
 ```
 
 ---
+## **Docker Architecture Diagram**
+
+                   +-----------------------+
+                   |     Docker Engine     |
+                   |   (Your Local PC)     |
+                   +-----------+-----------+
+                               |
+                               |
+                   +-----------v-----------+
+                   |     Custom Network    |
+                   |      my_network       |
+                   +-----------+-----------+
+                               |
+           ------------------------------------------------
+           |                                              |
+           |                                              |
++----------v---------+                         +----------v-----------+
+|   Python App       |                         |   PostgreSQL DB      |
+|  Container         |                         |   Container           |
+|  Image: python_db  |                         |   Image: postgres:15  |
+|                    |                         |                        |
+|  app.py connects → | -- host="postgres_db" → | PostgreSQL Server     |
+|  prints message:   |                         | (DB: testdb)          |
+|  "Connected to DB" |                         |                        |
+|                    | ← returns data back ----| employees table       |
++--------------------+                         +------------------------+
+
+
+---
 
 ##  **Python App (`app.py`)**
 
