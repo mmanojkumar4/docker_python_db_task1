@@ -1,7 +1,7 @@
-# docker_python_db_task1
 
 
- Dockerized Python + PostgreSQL Employee CRUD App**
+
+ # Dockerized Python + PostgreSQL Employee CRUD App**
 
 This project is a **beginner-level Docker task** that demonstrates how to run a Python app and PostgreSQL inside Docker containers using a **custom Docker network**.
 
@@ -65,7 +65,7 @@ def get_connection():
 
 ###  **Full CRUD Application Code**
 
-(Your full CRUD code stays the same except updated get_connection)
+    app.py — This Python script contains the complete logic for connecting to PostgreSQL, printing the “Connected to the database!” message, creating the employees table, and performing all CRUD operations (Add, Update, Delete, View). It also provides an interactive menu so users can enter data manually inside the Docker container. 
 
 ---
 
@@ -106,7 +106,7 @@ This allows containers to communicate by name (DNS).
 
 ---
 
-## 🐘 **Run PostgreSQL Container**
+##  **Run PostgreSQL Container**
 
 ```bash
 docker run -d \
