@@ -63,13 +63,14 @@ def get_connection():
     return conn
 ```
 
+
 ###  **Full CRUD Application Code**
-```
+
     app.py — This Python script contains the complete logic for connecting to PostgreSQL, printing the “Connected to the database!” message . 
     It creates the employees table, and performing all CRUD operations (Add, Update, Delete, View). 
-    It also provides an interactive menu so users can enter data manually inside the Docker container.  ```
+    It also provides an interactive menu so users can enter data manually inside the Docker container. 
 
----
+
 
 ##  **requirements.txt**
 
