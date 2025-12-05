@@ -18,7 +18,7 @@ and then provides a CRUD menu for managing employees.
 
 
 
-### ✔ What This App Does
+###  What This App Does
 
 * **Connects to PostgreSQL container**
 * **Prints "Connected to the database!" when connection succeeds**
