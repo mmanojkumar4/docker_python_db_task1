@@ -1,4 +1,5 @@
-
+![backup](https://github.com/PavanSPK/Automated_Backup_System_Project/blob/main/test_folder/backup.png)
+ 
 
 
  # Dockerized Python + PostgreSQL Employee CRUD App**
@@ -12,6 +13,9 @@ Connected to the database!
 ```
 
 and then provides a CRUD menu for managing employees.
+
+![db](screenshots/running.png)
+ 
 
 ---
 
