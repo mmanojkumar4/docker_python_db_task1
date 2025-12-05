@@ -38,6 +38,8 @@ docker_db_task/
 ├── requirements.txt
 └── Dockerfile
 ```
+## Docker Architecture Diagram
+![architecture](screenshots/arch.png)
 
 ---
 
