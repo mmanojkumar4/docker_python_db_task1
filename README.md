@@ -155,7 +155,7 @@ docker run --network my_network -it python_db_task
 
 You should now see:
 
-screenshots/running.png
+
 
 
 ```
