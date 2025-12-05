@@ -207,13 +207,21 @@ docker ps -a
 
 ---
 
-##  **What You Learned**
 
-✔ How to Dockerize a Python app
-✔ How to run PostgreSQL in Docker
-✔ How to connect two containers using custom network
-✔ How to perform CRUD operations
-✔ How to debug containers
-✔ How to verify DB connection with a success message
+
+---
+
+## **What You Learned**
+
+*  **How to Dockerize a Python app**
+*  **How to run PostgreSQL in Docker**
+*  **How to connect two containers using a custom network**
+*  **How to perform CRUD operations**
+*  **How to debug containers**
+*  **How to verify DB connection with a success message**
+
+---
+
+
 
 
