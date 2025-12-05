@@ -195,9 +195,9 @@ psql -U postgres -d testdb
 ```sql
 SELECT * FROM employees;
 ```
-screenshots/post1.png
+![postgresql](screenshots/post1.png)
 ---
-screenshots/running.png
+
 
 ##  **Useful Docker Commands**
 
