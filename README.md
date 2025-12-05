@@ -1,5 +1,4 @@
 
-
  # Dockerized Python + PostgreSQL Employee CRUD App
 
 This project is a **beginner-level Docker task** that demonstrates how to run a Python app and PostgreSQL inside Docker containers using a **custom Docker network**.
