@@ -15,16 +15,25 @@ and then provides a CRUD menu for managing employees.
 
 ---
 
-##  **What This App Does**
 
- Connects to PostgreSQL container
- Prints **"Connected to the database!"** when connection succeeds
- Creates an `employees` table if not exists
- Inserts new employees
- Updates existing employees
- Deletes employees
- Displays all employees
- Runs fully inside Docker
+
+
+### ✔ What This App Does
+
+* **Connects to PostgreSQL container**
+* **Prints "Connected to the database!" when connection succeeds**
+* **Creates an `employees` table if not exists**
+* **Inserts new employees**
+* **Updates existing employees**
+* **Deletes employees**
+* **Displays all employees**
+* **Runs fully inside Docker**
+
+---
+
+
+
+
 
 
 
